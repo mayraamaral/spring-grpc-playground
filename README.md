@@ -10,7 +10,7 @@ This endpoint returns a personalized greeting message.
 
 ### Request example
 ```bash
-curl -X GET "http://localhost:8080/api/greet?name=Mayra"
+curl -X GET "http://localhost:8080/greet?name=Mayra"
 ```
 ### Response example
 ```json
