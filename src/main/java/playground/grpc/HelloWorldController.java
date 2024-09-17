@@ -17,7 +17,7 @@ public class HelloWorldController {
         this.stub = HelloWorldServiceGrpc.newBlockingStub(channel);
     }
 
-    @GetMapping
+    @GetMapping("/greet")
     public ResponseEntity<?> getGreeting(@RequestParam String name) {
         HelloRequest request = HelloRequest.newBuilder().setName(name).build();
         HelloReply response = stub.greet(request);
