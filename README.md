@@ -1,5 +1,14 @@
 # Spring + gRPC playground
-## Endpoint
+## Running
+Open the terminal in the repository root folder, and then, execute the following command:
+```shell
+./mvnw spring-boot:run
+```
+PS.: if you face permission issues, just run the command bellow, and the run the command above after again.
+```shell
+chmod +x mvnw
+```
+## Endpoints
 `GET /greet`
 This endpoint returns a personalized greeting message.
 ### Query parameters
