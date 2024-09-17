@@ -9,8 +9,7 @@ PS.: if you face permission issues, just run the command bellow, and then run th
 chmod +x mvnw
 ```
 ## Endpoints
-`GET /greet`  
-This endpoint returns a personalized greeting message.
+`GET /greet` - this endpoint returns a personalized greeting message.
 ### Query parameters
 
 | Parameter | Type   | Description                             |
