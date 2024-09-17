@@ -1,4 +1,24 @@
 # Spring + gRPC playground
+## Endpoint
+`GET /greet`
+This endpoint returns a personalized greeting message.
+### Query parameters
+
+| Parameter | Type   | Description                             |
+| --------- | ------ | --------------------------------------- |
+| `name`    | String | The name of the person to greet. (Required) |
+
+### Request example
+```bash
+curl -X GET "http://localhost:8080/api/greet?name=John"
+```
+### Response example
+```json
+{
+  "greeting": "Hello, Mayra"
+}
+```
+
 References:
 - [Docs](https://grpc.io/docs/languages/java/basics/)
 - [Baeldung's Introduction to gRPC with Spring Boot](https://www.baeldung.com/spring-boot-grpc)
