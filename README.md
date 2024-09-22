@@ -1,5 +1,6 @@
 # Spring + gRPC playground
 ## Running
+### Linux
 Open the terminal in the repository root folder, and then execute the following command:
 ```shell
 ./mvnw spring-boot:run
@@ -8,6 +9,12 @@ PS.: if you face permission issues, just run the command bellow, and then run th
 ```shell
 chmod +x mvnw
 ```
+### Windows
+Open the terminal in the repository root folder, and then execute the following command:
+```shell
+.\mvnw.cmd spring-boot:run
+```
+PS.: if you face permission issues, just run the terminal as administrator and you'll be good to go. 😃
 ## Endpoints
 `GET /greet` - this endpoint returns a personalized greeting message.
 ### Query parameters
